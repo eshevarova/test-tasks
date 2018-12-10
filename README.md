@@ -5,9 +5,13 @@
 # Инструкции
 
 ## Запуск
+* python3 -m venv env
+* . env/bin/activate
+* python manage.py migrate
+* python manage.py runserver
 
-make run
 
 ## Тестирование
 
-make test
+* . env/bin/activate
+* python manage.py test
